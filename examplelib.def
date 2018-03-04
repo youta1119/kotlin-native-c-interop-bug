@@ -1,0 +1,2 @@
+headers = example.h
+compilerOpts = -I./exmple-lib/
