@@ -1,8 +1,8 @@
 # kotlin-native-c-interop-bug
-example project that kotlin-native generate invalid clang stub
+example project that kotlin-native bug
 
 ## What's the problem?
-if `pkgName` contains invalid identifier for clang and kotlin, compile fail with an error.
+if `pkgName` contains invalid identifier chars, compile fail with an error.
 
 ## How to reproduce?
 First, try `cinterop -def examplelib.def`. This will succeed.
